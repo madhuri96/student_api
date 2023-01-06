@@ -1,0 +1,32 @@
+{
+  "name": "student_api",
+  "version": "1.0.0",
+  "description": "Student CRUD Application with Rest API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhuri96/student_api.git"
+  },
+  "author": "Madhuri Bansode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhuri96/student_api/issues"
+  },
+  "homepage": "https://github.com/madhuri96/student_api#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.8.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
